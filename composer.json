@@ -1,0 +1,15 @@
+{
+    "name": "cy/client",
+    "authors": [
+        {
+            "name": "ace",
+            "email": "sufei@cheyian.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": { "cy\\client\\": "src/" }
+    }
+}
