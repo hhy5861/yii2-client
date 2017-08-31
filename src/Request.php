@@ -1,6 +1,6 @@
 <?php
 
-namespace cy\client;
+namespace mike\client;
 
 class Request
 {

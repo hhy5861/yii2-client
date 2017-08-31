@@ -1,9 +1,9 @@
 <?php
 
-namespace cy\client\response;
+namespace mike\client\response;
 
-use cy\client\Util;
-use cy\client\Request;
+use mike\client\Util;
+use mike\client\Request;
 use GuzzleHttp\Psr7\Response as GuzzleHttpResponse;
 
 class Response implements ResponseInterface

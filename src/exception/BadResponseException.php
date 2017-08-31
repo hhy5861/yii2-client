@@ -1,8 +1,8 @@
 <?php
 
-namespace cy\client\exception;
+namespace mike\client\exception;
 
-use cy\client\response\ResponseInterface;
+use mike\client\response\ResponseInterface;
 
 class BadResponseException extends \Exception
 {

@@ -1,15 +1,15 @@
 {
-    "name": "cy/client",
+    "name": "hhy5861/client",
     "authors": [
         {
-            "name": "ace",
-            "email": "sufei@cheyian.com"
+            "name": "mike",
+            "email": "hhy5861@163.com"
         }
     ],
     "require": {
         "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
-        "psr-4": { "cy\\client\\": "src/" }
+        "psr-4": { "mike\\client\\": "src/" }
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace cy\client\response;
+namespace mike\client\response;
 
-use cy\client\Request;
+use mike\client\Request;
 
 class AsyncResponse implements ResponseInterface
 {

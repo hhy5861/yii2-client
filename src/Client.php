@@ -1,10 +1,10 @@
 <?php
 
-namespace cy\client;
+namespace mike\client;
 
-use cy\client\response\ResponseInterface;
-use cy\client\response\AsyncResponse;
-use cy\client\exception\BadResponseException;
+use mike\client\response\ResponseInterface;
+use mike\client\response\AsyncResponse;
+use mike\client\exception\BadResponseException;
 use GuzzleHttp\Promise;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Handler\CurlMultiHandler;
@@ -77,13 +77,12 @@ class Client
     /**
      * @var string
      */
-    public $defaultResponseClass = 'cy\client\response\Response';
+    public $defaultResponseClass = 'mike\client\response\Response';
 
     /**
      * @var array
      */
     public $responseClassMap = [
-        'napi' => 'cy\client\response\NapiResponse',
     ];
 
     /**
@@ -401,7 +400,7 @@ class Client
             $options['headers']['x-forwarded-for'] = $ip;
         }
 
-        if ($options['timeout'] === null) {
+        if (empty($options['timeout'])) {
             $options['timeout'] = $this->timeout;
         }
 
