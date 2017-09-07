@@ -12,7 +12,7 @@
 ]
 ```
 
-2. 执行 `composer require "cy/client:dev-master"`
+2. 执行 `composer require "mike/client:dev-master"`
 
 3. 修改项目配置
 
